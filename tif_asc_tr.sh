@@ -1,4 +1,6 @@
 #!/bin/bash
+# converts raster gtif files into ascii ".asc" files
+# run this script in a folder which contains subdirectories including files
 main_dir=$( ls )
 for DIRECTORY in $main_dir
 do
